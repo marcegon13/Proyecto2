@@ -25,43 +25,31 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar d-flex mx-auto list-unstyled">
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="index.html">Inicio</a>
+            <a class="nav-link text-light" href="index.php">Inicio</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="promociones.html">Promociones</a>
+            <a class="nav-link text-light" href="promociones.php">Promociones</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="destinos.html">Destinos</a>
+            <a class="nav-link text-light" href="destinos.php">Destinos</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="contacto.html">Contacto</a>
+            <a class="nav-link text-light" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>
-      <form>
-        <div class="mb-3 text-white">
-          <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3 text-white">
-          <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <a href="usuario.html"
-          class="btn btn-outline-secondary text-decoration-none d-block m-auto p-1 mb-2">Registrate</a>
-        <button type="submit" class="btn btn-secondary d-block m-auto">Enviar</button>
-      </form>
+      
     </div>
   </nav>
   
-
-    <!--galerias-->
-    <p class="fs-1 text-center">DESTINOS</p>
-
-    
+  
+  <!--galerias-->
+  <p class="fs-1 text-center">DESTINOS</p>
+  
+  
   <div class="container">
     <div class="row">
-      
+  
       <p class="fs-4 text-md-center">Argentina</p>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner w-75 m-auto mb-2">
@@ -106,7 +94,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+  
       <p class="fs-4 text-md-center">Caribe</p>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner w-75 m-auto mb-2">
@@ -129,7 +117,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+  
       <p class="fs-4 text-md-center">Europa</p>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner w-75 m-auto mb-2">
@@ -155,7 +143,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+  
       <p class="fs-4 text-md-center">Estados Unidos</p>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner w-75 m-auto mb-2">
@@ -178,7 +166,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+  
       <p class="fs-4 text-md-center">Sudamerica</p>
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner w-75 m-auto mb-2">
@@ -204,12 +192,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+  
     </div>
   </div>
-     
-   <!--footer-->
-   <div class="container-fluid d-flex bg-black p-2 m-auto justify-content-around mb-2">
+  
+  <!--footer-->
+  <div class="container-fluid d-flex bg-black p-2 m-auto justify-content-around mb-2">
     <div class="col-4 pt-4"><img src="img/logo.png" alt="logo" width="150"></div>
     <div class="row-footer bg-black">
       <div class="col d-block">
@@ -231,13 +219,15 @@
         <img src="img/mini-logo.jpg" with="35px" heigth="35px" class="img-fluid"> Design by www.lanubedesarrolloweb.com
       </div>
     </div>
-  </div>  
-
-
+  </div>
   
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
- </body>
-</html>
   
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>

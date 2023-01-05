@@ -28,86 +28,75 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar d-flex mx-auto list-unstyled">
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="index.html">Inicio</a>
+            <a class="nav-link text-light" href="index.php">Inicio</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="promociones.html">Promociones</a>
+            <a class="nav-link text-light" href="promociones.php">Promociones</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="destinos.html">Destinos</a>
+            <a class="nav-link text-light" href="destinos.php">Destinos</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="contacto.html">Contacto</a>
+            <a class="nav-link text-light" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>
-      <form>
-        <div class="mb-3 text-white">
-          <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3 text-white">
-          <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <a href="usuario.html"
-          class="btn btn-outline-secondary text-decoration-none d-block m-auto p-1 mb-2">Registrate</a>
-        <button type="submit" class="btn btn-secondary d-block m-auto">Enviar</button>
-      </form>
+      
     </div>
   </nav>
-
   <!--formulario-->
-
+  
   <div class="container mt-2">
-
-    <form class="row w-75 g-3 mt-3 mb-3 mx-auto ">
-
-      <div class="col-6">
-        <label for="emailinput" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Escriba su email">
+  
+    <form action="Registro" method="post" class="row w-75 g-3 mt-3 mb-3 mx-auto ">
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
+       
+        <input type="email" class="form-control" id="inputEmail" placeholder="Escriba su email" required>
+      </div>
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
+        
+        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña"required>
+      </div>
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
+        
+        <input type="text" class="form-control" id="inputAddress" placeholder="Direccion" required>
+      </div>
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
+       
+        <input type="text" class="form-control" id="InputCity" placeholder="Ciudad" required>
       </div>
 
-      <div class="col-6">
-        <label for="passwordinput" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+      <div class="col-xl-2 col-md-3 col-sm-4">
+        <input type="text" class="form-control" id="InpuCodArea" placeholder="Cod. Area" required>
       </div>
-
-      <div class="col-6">
-        <label for="inputAddress" class="form-label ">Dirección</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Direccion">
+      <div class="col-xl-4 col-md-18 col-sm-10">  
+        <input type="text" class="form-control" id="InputTelefono" placeholder="Telefono" required>
       </div>
-
-      <div class="col-6">
-        <label for="inputCity" class="form-label ">Ciudad</label>
-        <input type="text" class="form-control" id="InputCity" placeholder="Ciudad">
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
+       
+        <input type="text" class="form-control" id="CountryInput" placeholder="Pais" required>
       </div>
-
-      <div class="col-6">
-        <label for="inputPostalCode" class="form-label">Cod. Postal</label>
-        <input type="text" class="form-control col" id="PostalCodeInput" placeholder="Codigo Postal">
-      </div>
-
-      <div class="col-6">
-        <label for="inputCountry" class="form-label">Pais</label>
-        <input type="text" class="form-control" id="CountryInput" placeholder="Pais">
-      </div>
-
-      <div class="col-6">
+  
+      <div class="col-xl-6 col-md-10 col-sm-12">
         <div class="form-check">
           <input type="checkbox" id="checkTerms" class="form-check-input">
           <label for="checkTerms" class="form-check-label">Acepto los terminos y condiciones</label>
         </div>
-
+  
         <div class="col-12">
-          <button type="submit" class="btn btn-secondary">Registrate</button>
+          <button type="submit" class="btn btn-secondary btn-sm">Registrate</button>
         </div>
       </div>
     </form>
   </div>
-
-
-
+  
+  
+  
   <!--footer-->
   <div class="container-fluid d-flex bg-black p-2 m-auto justify-content-around mb-2">
     <div class="col-4 pt-4"><img src="img/logo.png" alt="logo" width="150"></div>
@@ -132,14 +121,12 @@
       </div>
     </div>
   </div>
-
+  
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-    crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  
+  </body>
+  
+  </html>

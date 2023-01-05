@@ -25,68 +25,58 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar d-flex mx-auto list-unstyled">
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="index.html">Inicio</a>
+            <a class="nav-link text-light" href="index.php">Inicio</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="promociones.html">Promociones</a>
+            <a class="nav-link text-light" href="promociones.php">Promociones</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="destinos.html">Destinos</a>
+            <a class="nav-link text-light" href="destinos.php">Destinos</a>
           </li>
           <li class="nav-item p-4">
-            <a class="nav-link text-light" href="contacto.html">Contacto</a>
+            <a class="nav-link text-light" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>
-      <form>
-        <div class="mb-3 text-white">
-          <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3 text-white">
-          <label for="exampleInputPassword1" class="form-label text-white">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <a href="usuario.html"
-          class="btn btn-outline-secondary text-decoration-none d-block m-auto p-1 mb-2">Registrate</a>
-        <button type="submit" class="btn btn-secondary d-block m-auto">Enviar</button>
-      </form>
-    </div>
+      
   </nav>
-
+  
   <!--form contacto consulta-->
   <p class="text-center fs-2">Contacto</p>
   <div class="container">
     <p>Estimado cliente:
       Le rogamos por favor complete el formulario a fin de hacernos todas las consultas. Nos comunicaremos por nuestro
       canal de email a la brevedad.</p>
-    <div class="row d-block w-100 mx-auto mb-4">
-      <div class="col-6 mb-2">
-        <label for="textInput" class="form-label">Nombre y apellido</label>
-        <input type="text" class="form-control" id="inputText" placeholder="Nombre y apellido">
-      </div>
-      <div class="col-6 mb-2">
-        <label for="emailinput" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
-      </div>
-      <div class="col-6 mb-2">
-        <label for="Telefono" class="form-label">Telefono</label>
-        <input type="text" class="form-control" name="telefono" placeholder="Telefono" required>
-      </div>
-      <div class="col-6 mb-2">
-        <label for="textInput" class="form-label">Asunto</label>
-        <input type="text" class="form-control" id="inputText" placeholder="Asunto">
-      </div>
-      <div class="col-6 mb-2">
-        <label for="textInput" class="form-label">Consulta</label>
-        <textarea rows="6" class="form-control" name="consulta" placeholder="Consulta" required></textarea>
-        <div class="col-12">
-          <button type="submit" class="btn btn-secondary">Enviar</button>
+    <form action="consulta" method="POST">
+      <div class="row d-block w-100 mx-auto mb-4">
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <label for="textInput" class="form-label">Nombre y apellido</label>
+          <input type="text" class="form-control" id="inputText" placeholder="Nombre y apellido" required>
         </div>
-      </div>
-      
-     
-    </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <label for="emailinput" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <label for="Telefono" class="form-label">Telefono</label>
+          <input type="text" class="form-control" name="telefono" placeholder="Telefono" required>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <label for="textInput" class="form-label">Asunto</label>
+          <input type="text" class="form-control" id="inputText" placeholder="Asunto">
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <label for="textInput" class="form-label">Consulta</label>
+          <textarea rows="6" class="form-control" name="consulta" placeholder="Consulta" required></textarea>
+        </div>
+        <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
+          <button type="submit" class="btn btn-secondary btn-sm mx-2">Enviar</button>
+          <button type="reset" class="btn btn-secondary btn-sm mx-2"> Borrar</button>
+        </div>
+    </form>
+  
+  
+  </div>
   </div>
   
   <!--footer-->
@@ -113,13 +103,11 @@
       </div>
     </div>
   </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-    crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </body>
 </html>
